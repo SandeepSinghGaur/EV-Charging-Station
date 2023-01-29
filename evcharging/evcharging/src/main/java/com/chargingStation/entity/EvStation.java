@@ -9,7 +9,7 @@ public class EvStation {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long stationId;
 
-    @Column(length = 100 ,nullable = false)
+    @Column(length = 100 )
     private String stationName;
 
     @Column(length = 1000)
